@@ -45,7 +45,7 @@ gdjs.evtsExt__GameExtensions__StageChange.condition1IsTrue_0.val = gdjs.evtTools
 }}
 if (gdjs.evtsExt__GameExtensions__StageChange.condition1IsTrue_0.val) {
 gdjs.copyArray(eventsFunctionContext.getObjects("s2BG"), gdjs.evtsExt__GameExtensions__StageChange.GDs2BGObjects1);
-{gdjs.evtTools.tween.tweenCamera(runtimeScene, "Camera", (( gdjs.evtsExt__GameExtensions__StageChange.GDs2BGObjects1.length === 0 ) ? 0 :gdjs.evtsExt__GameExtensions__StageChange.GDs2BGObjects1[0].getCenterXInScene()), (( gdjs.evtsExt__GameExtensions__StageChange.GDs2BGObjects1.length === 0 ) ? 0 :gdjs.evtsExt__GameExtensions__StageChange.GDs2BGObjects1[0].getCenterYInScene()), "", 500, "easeOutQuad");
+{gdjs.evtTools.tween.tweenCamera(runtimeScene, "Camera", (( gdjs.evtsExt__GameExtensions__StageChange.GDs2BGObjects1.length === 0 ) ? 0 :gdjs.evtsExt__GameExtensions__StageChange.GDs2BGObjects1[0].getCenterXInScene()), (( gdjs.evtsExt__GameExtensions__StageChange.GDs2BGObjects1.length === 0 ) ? 0 :gdjs.evtsExt__GameExtensions__StageChange.GDs2BGObjects1[0].getCenterYInScene()), "", 10, "easeOutQuad");
 }
 { //Subevents
 gdjs.evtsExt__GameExtensions__StageChange.eventsList0(runtimeScene, eventsFunctionContext);} //End of subevents

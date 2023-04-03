@@ -49,7 +49,7 @@ for(var i = 0, k = 0, l = gdjs.evtsExt__GameExtensions__FadeOutTool.GDmiscObject
 gdjs.evtsExt__GameExtensions__FadeOutTool.GDmiscObjects1.length = k;}if ( gdjs.evtsExt__GameExtensions__FadeOutTool.condition1IsTrue_0.val ) {
 {
 {gdjs.evtsExt__GameExtensions__FadeOutTool.conditionTrue_1 = gdjs.evtsExt__GameExtensions__FadeOutTool.condition2IsTrue_0;
-gdjs.evtsExt__GameExtensions__FadeOutTool.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(10575028);
+gdjs.evtsExt__GameExtensions__FadeOutTool.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(10584820);
 }
 }}
 }

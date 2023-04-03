@@ -73,7 +73,7 @@ gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.onCreatedContext.conditionTrue_
 gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.onCreatedContext.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.onCreatedContext.userFunc0x7bf290 = function(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.onCreatedContext.userFunc0x7e9820 = function(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 const object = objects[0];
@@ -254,7 +254,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Sticker
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.onCreatedContext.GDObjectObjects1);
-gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.onCreatedContext.userFunc0x7bf290(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.onCreatedContext.userFunc0x7e9820(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -333,7 +333,7 @@ gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.doStepPreEventsContext.conditio
 gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.doStepPreEventsContext.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.doStepPreEventsContext.userFunc0x978f58 = function(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.doStepPreEventsContext.userFunc0x7e3718 = function(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 const object = objects[0];
@@ -349,7 +349,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Sticker
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.doStepPreEventsContext.GDObjectObjects1);
-gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.doStepPreEventsContext.userFunc0x978f58(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.doStepPreEventsContext.userFunc0x7e3718(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -428,7 +428,7 @@ gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.doStepPostEventsContext.conditi
 gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.doStepPostEventsContext.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.doStepPostEventsContext.userFunc0x978f58 = function(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.doStepPostEventsContext.userFunc0x7e14a0 = function(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 const object = objects[0];
@@ -444,7 +444,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Sticker
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.doStepPostEventsContext.GDObjectObjects1);
-gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.doStepPostEventsContext.userFunc0x978f58(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.doStepPostEventsContext.userFunc0x7e14a0(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -524,7 +524,7 @@ gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.StickContext.conditionTrue_0 = 
 gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.StickContext.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.StickContext.userFunc0x7fe718 = function(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.StickContext.userFunc0x7e4200 = function(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -548,7 +548,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Sticker
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.StickContext.GDObjectObjects1);
-gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.StickContext.userFunc0x7fe718(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.StickContext.userFunc0x7e4200(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -630,7 +630,7 @@ gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.UnstickContext.conditionTrue_0 
 gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.UnstickContext.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.UnstickContext.userFunc0x7fe718 = function(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.UnstickContext.userFunc0x7e4200 = function(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -646,7 +646,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Sticker
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.UnstickContext.GDObjectObjects1);
-gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.UnstickContext.userFunc0x7fe718(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.UnstickContext.userFunc0x7e4200(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -725,7 +725,7 @@ gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.onDestroyContext.conditionTrue_
 gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.onDestroyContext.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.onDestroyContext.userFunc0x7bf290 = function(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.onDestroyContext.userFunc0x7e9820 = function(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 const object = objects[0];
@@ -743,7 +743,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Sticker
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.onDestroyContext.GDObjectObjects1);
-gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.onDestroyContext.userFunc0x7bf290(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Sticker__Sticker.Sticker.prototype.onDestroyContext.userFunc0x7e9820(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

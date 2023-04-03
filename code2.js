@@ -223,10 +223,38 @@ gdjs.GameCode.GDs7popButtonsObjects1= [];
 gdjs.GameCode.GDs7popButtonsObjects2= [];
 gdjs.GameCode.GDs7popButtonsObjects3= [];
 gdjs.GameCode.GDs7popButtonsObjects4= [];
+gdjs.GameCode.GDs7popButtons2Objects1= [];
+gdjs.GameCode.GDs7popButtons2Objects2= [];
+gdjs.GameCode.GDs7popButtons2Objects3= [];
+gdjs.GameCode.GDs7popButtons2Objects4= [];
+gdjs.GameCode.GDs7popButtons3Objects1= [];
+gdjs.GameCode.GDs7popButtons3Objects2= [];
+gdjs.GameCode.GDs7popButtons3Objects3= [];
+gdjs.GameCode.GDs7popButtons3Objects4= [];
+gdjs.GameCode.GDs7popButtons4Objects1= [];
+gdjs.GameCode.GDs7popButtons4Objects2= [];
+gdjs.GameCode.GDs7popButtons4Objects3= [];
+gdjs.GameCode.GDs7popButtons4Objects4= [];
 gdjs.GameCode.GDNewSpriteObjects1= [];
 gdjs.GameCode.GDNewSpriteObjects2= [];
 gdjs.GameCode.GDNewSpriteObjects3= [];
 gdjs.GameCode.GDNewSpriteObjects4= [];
+gdjs.GameCode.GDs4ToggleObjects1= [];
+gdjs.GameCode.GDs4ToggleObjects2= [];
+gdjs.GameCode.GDs4ToggleObjects3= [];
+gdjs.GameCode.GDs4ToggleObjects4= [];
+gdjs.GameCode.GDs5dooropen1Objects1= [];
+gdjs.GameCode.GDs5dooropen1Objects2= [];
+gdjs.GameCode.GDs5dooropen1Objects3= [];
+gdjs.GameCode.GDs5dooropen1Objects4= [];
+gdjs.GameCode.GDs5dooropen2Objects1= [];
+gdjs.GameCode.GDs5dooropen2Objects2= [];
+gdjs.GameCode.GDs5dooropen2Objects3= [];
+gdjs.GameCode.GDs5dooropen2Objects4= [];
+gdjs.GameCode.GDs7chestObjects1= [];
+gdjs.GameCode.GDs7chestObjects2= [];
+gdjs.GameCode.GDs7chestObjects3= [];
+gdjs.GameCode.GDs7chestObjects4= [];
 
 gdjs.GameCode.conditionTrue_0 = {val:false};
 gdjs.GameCode.condition0IsTrue_0 = {val:false};
@@ -340,6 +368,9 @@ gdjs.copyArray(runtimeScene.getObjects("s5popimg3"), gdjs.GameCode.GDs5popimg3Ob
 gdjs.copyArray(runtimeScene.getObjects("s5popimg4"), gdjs.GameCode.GDs5popimg4Objects1);
 gdjs.copyArray(runtimeScene.getObjects("s6boxCode"), gdjs.GameCode.GDs6boxCodeObjects1);
 gdjs.copyArray(runtimeScene.getObjects("s7popButtons"), gdjs.GameCode.GDs7popButtonsObjects1);
+gdjs.copyArray(runtimeScene.getObjects("s7popButtons2"), gdjs.GameCode.GDs7popButtons2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("s7popButtons3"), gdjs.GameCode.GDs7popButtons3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("s7popButtons4"), gdjs.GameCode.GDs7popButtons4Objects1);
 {for(var i = 0, len = gdjs.GameCode.GDS2POPframeObjects1.length ;i < len;++i) {
     gdjs.GameCode.GDS2POPframeObjects1[i].deleteFromScene(runtimeScene);
 }
@@ -390,6 +421,15 @@ for(var i = 0, len = gdjs.GameCode.GDs5popimg4Objects1.length ;i < len;++i) {
 }
 }{for(var i = 0, len = gdjs.GameCode.GDs7popButtonsObjects1.length ;i < len;++i) {
     gdjs.GameCode.GDs7popButtonsObjects1[i].deleteFromScene(runtimeScene);
+}
+for(var i = 0, len = gdjs.GameCode.GDs7popButtons2Objects1.length ;i < len;++i) {
+    gdjs.GameCode.GDs7popButtons2Objects1[i].deleteFromScene(runtimeScene);
+}
+for(var i = 0, len = gdjs.GameCode.GDs7popButtons3Objects1.length ;i < len;++i) {
+    gdjs.GameCode.GDs7popButtons3Objects1[i].deleteFromScene(runtimeScene);
+}
+for(var i = 0, len = gdjs.GameCode.GDs7popButtons4Objects1.length ;i < len;++i) {
+    gdjs.GameCode.GDs7popButtons4Objects1[i].deleteFromScene(runtimeScene);
 }
 }}
 
@@ -515,9 +555,22 @@ gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.object.getSceneInstancesCou
 }}
 if (gdjs.GameCode.condition1IsTrue_0.val) {
 /* Reuse gdjs.GameCode.GDmiscObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("s1BG"), gdjs.GameCode.GDs1BGObjects2);
 gdjs.copyArray(runtimeScene.getObjects("s3BG"), gdjs.GameCode.GDs3BGObjects2);
 {gdjs.evtsExt__GameExtensions__StageChange.func(runtimeScene, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs3BGObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = gdjs.GameCode.GDs1BGObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs1BGObjects2[i].setAnimation(1);
+}
 }}
+
+}
+
+
+{
+
+
+{
+}
 
 }
 
@@ -688,18 +741,26 @@ if (gdjs.GameCode.condition2IsTrue_0.val) {
 }
 
 
-};gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects = Hashtable.newFrom({"misc": gdjs.GameCode.GDmiscObjects2});
+};gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs3SwitchObjects2Objects = Hashtable.newFrom({"s3Switch": gdjs.GameCode.GDs3SwitchObjects2});
+gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDpauseUIObjects2Objects = Hashtable.newFrom({"pauseUI": gdjs.GameCode.GDpauseUIObjects2});
+gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects = Hashtable.newFrom({"misc": gdjs.GameCode.GDmiscObjects2});
 gdjs.GameCode.mapOfEmptyGDS3POPframeObjects = Hashtable.newFrom({"S3POPframe": []});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs3CoinObjects2Objects = Hashtable.newFrom({"s3Coin": gdjs.GameCode.GDs3CoinObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDpauseUIObjects2Objects = Hashtable.newFrom({"pauseUI": gdjs.GameCode.GDpauseUIObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs3CoinObjects2Objects = Hashtable.newFrom({"s3Coin": gdjs.GameCode.GDs3CoinObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects = Hashtable.newFrom({"misc": gdjs.GameCode.GDmiscObjects2});
+gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs3SwitchObjects2Objects = Hashtable.newFrom({"s3Switch": gdjs.GameCode.GDs3SwitchObjects2});
+gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects = Hashtable.newFrom({"misc": gdjs.GameCode.GDmiscObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs3CoinObjects2Objects = Hashtable.newFrom({"s3Coin": gdjs.GameCode.GDs3CoinObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDpauseUIObjects2Objects = Hashtable.newFrom({"pauseUI": gdjs.GameCode.GDpauseUIObjects2});
+gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs3SwitchObjects2Objects = Hashtable.newFrom({"s3Switch": gdjs.GameCode.GDs3SwitchObjects2});
+gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDpauseUIObjects2Objects = Hashtable.newFrom({"pauseUI": gdjs.GameCode.GDpauseUIObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs3CodeObjects2ObjectsGDgdjs_46GameCode_46GDs3Code2Objects2ObjectsGDgdjs_46GameCode_46GDs3Code3Objects2ObjectsGDgdjs_46GameCode_46GDs3Code4Objects2Objects = Hashtable.newFrom({"s3Code": gdjs.GameCode.GDs3CodeObjects2, "s3Code2": gdjs.GameCode.GDs3Code2Objects2, "s3Code3": gdjs.GameCode.GDs3Code3Objects2, "s3Code4": gdjs.GameCode.GDs3Code4Objects2});
-gdjs.GameCode.asyncCallback10619972 = function (runtimeScene, asyncObjectsList) {
-gdjs.copyArray(runtimeScene.getObjects("s4BG"), gdjs.GameCode.GDs4BGObjects4);
-{gdjs.evtTools.tween.tweenCamera(runtimeScene, "Camera", (( gdjs.GameCode.GDs4BGObjects4.length === 0 ) ? 0 :gdjs.GameCode.GDs4BGObjects4[0].getCenterXInScene()), (( gdjs.GameCode.GDs4BGObjects4.length === 0 ) ? 0 :gdjs.GameCode.GDs4BGObjects4[0].getCenterYInScene()), "", 500, "easeOutQuad");
+gdjs.GameCode.asyncCallback10654260 = function (runtimeScene, asyncObjectsList) {
+gdjs.copyArray(runtimeScene.getObjects("s3BG"), gdjs.GameCode.GDs3BGObjects4);
+{for(var i = 0, len = gdjs.GameCode.GDs3BGObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDs3BGObjects4[i].setAnimation(1);
+}
 }}
 gdjs.GameCode.eventsList4 = function(runtimeScene, asyncObjectsList) {
 
@@ -710,14 +771,14 @@ gdjs.GameCode.eventsList4 = function(runtimeScene, asyncObjectsList) {
 const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback10619972(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GameCode.asyncCallback10654260(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback9642676 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback10653788 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(runtimeScene.getObjects("S3POPframe"), gdjs.GameCode.GDS3POPframeObjects3);
 gdjs.copyArray(runtimeScene.getObjects("closeBtnUI"), gdjs.GameCode.GDcloseBtnUIObjects3);
 gdjs.copyArray(asyncObjectsList.getObjects("s3Code"), gdjs.GameCode.GDs3CodeObjects3);
@@ -762,25 +823,67 @@ for (const obj of gdjs.GameCode.GDs3CodeObjects2) asyncObjectsList.addObject("s3
 for (const obj of gdjs.GameCode.GDs3Code2Objects2) asyncObjectsList.addObject("s3Code2", obj);
 for (const obj of gdjs.GameCode.GDs3Code3Objects2) asyncObjectsList.addObject("s3Code3", obj);
 for (const obj of gdjs.GameCode.GDs3Code4Objects2) asyncObjectsList.addObject("s3Code4", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GameCode.asyncCallback9642676(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GameCode.asyncCallback10653788(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs3glassObjects2Objects = Hashtable.newFrom({"s3glass": gdjs.GameCode.GDs3glassObjects2});
+};gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects = Hashtable.newFrom({"misc": gdjs.GameCode.GDmiscObjects2});
+gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects = Hashtable.newFrom({"misc": gdjs.GameCode.GDmiscObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs1t2Objects2Objects = Hashtable.newFrom({"s1t2": gdjs.GameCode.GDs1t2Objects2});
 gdjs.GameCode.eventsList6 = function(runtimeScene) {
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("pauseUI"), gdjs.GameCode.GDpauseUIObjects2);
+gdjs.copyArray(runtimeScene.getObjects("s3Switch"), gdjs.GameCode.GDs3SwitchObjects2);
+
+gdjs.GameCode.condition0IsTrue_0.val = false;
+{
+gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs3SwitchObjects2Objects, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDpauseUIObjects2Objects, false, runtimeScene, false);
+}if (gdjs.GameCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.GameCode.GDpauseUIObjects2 */
+/* Reuse gdjs.GameCode.GDs3SwitchObjects2 */
+{for(var i = 0, len = gdjs.GameCode.GDs3SwitchObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs3SwitchObjects2[i].setZOrder((( gdjs.GameCode.GDpauseUIObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDpauseUIObjects2[0].getZOrder()) + 10);
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.GameCode.condition0IsTrue_0.val = false;
+{
+gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+}if (gdjs.GameCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("s3Switch"), gdjs.GameCode.GDs3SwitchObjects2);
+gdjs.copyArray(runtimeScene.getObjects("s3glass"), gdjs.GameCode.GDs3glassObjects2);
+{for(var i = 0, len = gdjs.GameCode.GDs3glassObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs3glassObjects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.GameCode.GDs3SwitchObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs3SwitchObjects2[i].hide();
+}
+}}
+
+}
+
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("misc"), gdjs.GameCode.GDmiscObjects2);
+gdjs.copyArray(runtimeScene.getObjects("s3BG"), gdjs.GameCode.GDs3BGObjects2);
 
 gdjs.GameCode.condition0IsTrue_0.val = false;
 gdjs.GameCode.condition1IsTrue_0.val = false;
 gdjs.GameCode.condition2IsTrue_0.val = false;
 gdjs.GameCode.condition3IsTrue_0.val = false;
+gdjs.GameCode.condition4IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.GameCode.GDmiscObjects2.length;i<l;++i) {
     if ( gdjs.GameCode.GDmiscObjects2[i].getVariableNumber(gdjs.GameCode.GDmiscObjects2[i].getVariables().get("id")) == 2 ) {
@@ -798,10 +901,20 @@ gdjs.GameCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased
 }if ( gdjs.GameCode.condition2IsTrue_0.val ) {
 {
 gdjs.GameCode.condition3IsTrue_0.val = gdjs.evtTools.object.getSceneInstancesCount((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfEmptyGDS3POPframeObjects) < 1;
-}}
+}if ( gdjs.GameCode.condition3IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs3BGObjects2.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs3BGObjects2[i].getAnimation() == 0 ) {
+        gdjs.GameCode.condition4IsTrue_0.val = true;
+        gdjs.GameCode.GDs3BGObjects2[k] = gdjs.GameCode.GDs3BGObjects2[i];
+        ++k;
+    }
+}
+gdjs.GameCode.GDs3BGObjects2.length = k;}}
 }
 }
-if (gdjs.GameCode.condition3IsTrue_0.val) {
+}
+if (gdjs.GameCode.condition4IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.createObjectsFromExternalLayout(runtimeScene, "S3Pop", 800 - 50, 0);
 }}
 
@@ -833,7 +946,9 @@ gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTes
 {
 gdjs.copyArray(runtimeScene.getObjects("misc"), gdjs.GameCode.GDmiscObjects2);
 gdjs.copyArray(runtimeScene.getObjects("s3Coin"), gdjs.GameCode.GDs3CoinObjects2);
+gdjs.copyArray(runtimeScene.getObjects("s3Switch"), gdjs.GameCode.GDs3SwitchObjects2);
 {gdjs.evtsExt__GameExtensions__ScaleHover.func(runtimeScene, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs3CoinObjects2Objects, "Tween", gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{gdjs.evtsExt__GameExtensions__ScaleHover.func(runtimeScene, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs3SwitchObjects2Objects, "Tween", gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }}
 
 }
@@ -846,6 +961,28 @@ gdjs.copyArray(runtimeScene.getObjects("s3Coin"), gdjs.GameCode.GDs3CoinObjects2
 gdjs.copyArray(runtimeScene.getObjects("pauseUI"), gdjs.GameCode.GDpauseUIObjects2);
 gdjs.copyArray(runtimeScene.getObjects("s3Coin"), gdjs.GameCode.GDs3CoinObjects2);
 {gdjs.evtsExt__GameExtensions__TweenToInventory.func(runtimeScene, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs3CoinObjects2Objects, "Tween", (( gdjs.GameCode.GDpauseUIObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDpauseUIObjects2[0].getPointX("5")), (( gdjs.GameCode.GDpauseUIObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDpauseUIObjects2[0].getPointY("5")), "Sticker", gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDpauseUIObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("s3Switch"), gdjs.GameCode.GDs3SwitchObjects2);
+
+gdjs.GameCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs3SwitchObjects2.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs3SwitchObjects2[i].isVisible() ) {
+        gdjs.GameCode.condition0IsTrue_0.val = true;
+        gdjs.GameCode.GDs3SwitchObjects2[k] = gdjs.GameCode.GDs3SwitchObjects2[i];
+        ++k;
+    }
+}
+gdjs.GameCode.GDs3SwitchObjects2.length = k;}if (gdjs.GameCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("pauseUI"), gdjs.GameCode.GDpauseUIObjects2);
+/* Reuse gdjs.GameCode.GDs3SwitchObjects2 */
+{gdjs.evtsExt__GameExtensions__TweenToInventory.func(runtimeScene, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs3SwitchObjects2Objects, "Tween", (( gdjs.GameCode.GDpauseUIObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDpauseUIObjects2[0].getPointX("2")), (( gdjs.GameCode.GDpauseUIObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDpauseUIObjects2[0].getPointY("2")), "Sticker", gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDpauseUIObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }}
 
 }
@@ -948,38 +1085,96 @@ gdjs.GameCode.eventsList5(runtimeScene);} //End of subevents
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("s1t2"), gdjs.GameCode.GDs1t2Objects2);
-gdjs.copyArray(runtimeScene.getObjects("s3glass"), gdjs.GameCode.GDs3glassObjects2);
+gdjs.copyArray(runtimeScene.getObjects("misc"), gdjs.GameCode.GDmiscObjects2);
+gdjs.copyArray(runtimeScene.getObjects("s3BG"), gdjs.GameCode.GDs3BGObjects2);
 
 gdjs.GameCode.condition0IsTrue_0.val = false;
 gdjs.GameCode.condition1IsTrue_0.val = false;
 gdjs.GameCode.condition2IsTrue_0.val = false;
+gdjs.GameCode.condition3IsTrue_0.val = false;
 {
-gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs3glassObjects2Objects, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs1t2Objects2Objects, false, runtimeScene, false);
+gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 }if ( gdjs.GameCode.condition0IsTrue_0.val ) {
+{
+gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects, runtimeScene, true, false);
+}if ( gdjs.GameCode.condition1IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.GameCode.GDmiscObjects2.length;i<l;++i) {
+    if ( gdjs.GameCode.GDmiscObjects2[i].getVariableNumber(gdjs.GameCode.GDmiscObjects2[i].getVariables().get("id")) == 15 ) {
+        gdjs.GameCode.condition2IsTrue_0.val = true;
+        gdjs.GameCode.GDmiscObjects2[k] = gdjs.GameCode.GDmiscObjects2[i];
+        ++k;
+    }
+}
+gdjs.GameCode.GDmiscObjects2.length = k;}if ( gdjs.GameCode.condition2IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs3BGObjects2.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs3BGObjects2[i].getAnimation() == 1 ) {
+        gdjs.GameCode.condition3IsTrue_0.val = true;
+        gdjs.GameCode.GDs3BGObjects2[k] = gdjs.GameCode.GDs3BGObjects2[i];
+        ++k;
+    }
+}
+gdjs.GameCode.GDs3BGObjects2.length = k;}}
+}
+}
+if (gdjs.GameCode.condition3IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("s4BG"), gdjs.GameCode.GDs4BGObjects2);
+{gdjs.evtTools.tween.tweenCamera(runtimeScene, "Camera", (( gdjs.GameCode.GDs4BGObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDs4BGObjects2[0].getCenterXInScene()), (( gdjs.GameCode.GDs4BGObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDs4BGObjects2[0].getCenterYInScene()), "", 10, "easeOutQuad");
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("misc"), gdjs.GameCode.GDmiscObjects2);
+gdjs.copyArray(runtimeScene.getObjects("s1t2"), gdjs.GameCode.GDs1t2Objects2);
+
+gdjs.GameCode.condition0IsTrue_0.val = false;
+gdjs.GameCode.condition1IsTrue_0.val = false;
+gdjs.GameCode.condition2IsTrue_0.val = false;
+gdjs.GameCode.condition3IsTrue_0.val = false;
+{
+gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs1t2Objects2Objects, false, runtimeScene, false);
+}if ( gdjs.GameCode.condition0IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.GameCode.GDmiscObjects2.length;i<l;++i) {
+    if ( gdjs.GameCode.GDmiscObjects2[i].getVariableNumber(gdjs.GameCode.GDmiscObjects2[i].getVariables().get("id")) == 14 ) {
+        gdjs.GameCode.condition1IsTrue_0.val = true;
+        gdjs.GameCode.GDmiscObjects2[k] = gdjs.GameCode.GDmiscObjects2[i];
+        ++k;
+    }
+}
+gdjs.GameCode.GDmiscObjects2.length = k;}if ( gdjs.GameCode.condition1IsTrue_0.val ) {
 {
 for(var i = 0, k = 0, l = gdjs.GameCode.GDs1t2Objects2.length;i<l;++i) {
     if ( gdjs.GameCode.GDs1t2Objects2[i].getBehavior("Draggable").isDragged() ) {
-        gdjs.GameCode.condition1IsTrue_0.val = true;
+        gdjs.GameCode.condition2IsTrue_0.val = true;
         gdjs.GameCode.GDs1t2Objects2[k] = gdjs.GameCode.GDs1t2Objects2[i];
         ++k;
     }
 }
-gdjs.GameCode.GDs1t2Objects2.length = k;}if ( gdjs.GameCode.condition1IsTrue_0.val ) {
+gdjs.GameCode.GDs1t2Objects2.length = k;}if ( gdjs.GameCode.condition2IsTrue_0.val ) {
 {
-{gdjs.GameCode.conditionTrue_1 = gdjs.GameCode.condition2IsTrue_0;
-gdjs.GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10621004);
+{gdjs.GameCode.conditionTrue_1 = gdjs.GameCode.condition3IsTrue_0;
+gdjs.GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10656828);
 }
 }}
 }
-if (gdjs.GameCode.condition2IsTrue_0.val) {
+}
+if (gdjs.GameCode.condition3IsTrue_0.val) {
 /* Reuse gdjs.GameCode.GDs1t2Objects2 */
-/* Reuse gdjs.GameCode.GDs3glassObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("s3Switch"), gdjs.GameCode.GDs3SwitchObjects2);
+gdjs.copyArray(runtimeScene.getObjects("s3glass"), gdjs.GameCode.GDs3glassObjects2);
 {for(var i = 0, len = gdjs.GameCode.GDs1t2Objects2.length ;i < len;++i) {
     gdjs.GameCode.GDs1t2Objects2[i].deleteFromScene(runtimeScene);
 }
+}{for(var i = 0, len = gdjs.GameCode.GDs3SwitchObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs3SwitchObjects2[i].hide(false);
+}
 }{for(var i = 0, len = gdjs.GameCode.GDs3glassObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDs3glassObjects2[i].deleteFromScene(runtimeScene);
+    gdjs.GameCode.GDs3glassObjects2[i].hide(false);
 }
 }}
 
@@ -995,6 +1190,8 @@ if (gdjs.GameCode.condition2IsTrue_0.val) {
 
 };gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs4CoinObjects2Objects = Hashtable.newFrom({"s4Coin": gdjs.GameCode.GDs4CoinObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects = Hashtable.newFrom({"misc": gdjs.GameCode.GDmiscObjects2});
+gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs3SwitchObjects2Objects = Hashtable.newFrom({"s3Switch": gdjs.GameCode.GDs3SwitchObjects2});
+gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs4ToggleObjects2Objects = Hashtable.newFrom({"s4Toggle": gdjs.GameCode.GDs4ToggleObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs4CoinObjects2Objects = Hashtable.newFrom({"s4Coin": gdjs.GameCode.GDs4CoinObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDpauseUIObjects2Objects = Hashtable.newFrom({"pauseUI": gdjs.GameCode.GDpauseUIObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs4CoinObjects2Objects = Hashtable.newFrom({"s4Coin": gdjs.GameCode.GDs4CoinObjects2});
@@ -1064,6 +1261,28 @@ gdjs.copyArray(runtimeScene.getObjects("s4Coin"), gdjs.GameCode.GDs4CoinObjects2
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("s3Switch"), gdjs.GameCode.GDs3SwitchObjects2);
+gdjs.copyArray(runtimeScene.getObjects("s4Toggle"), gdjs.GameCode.GDs4ToggleObjects2);
+
+gdjs.GameCode.condition0IsTrue_0.val = false;
+{
+gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs3SwitchObjects2Objects, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs4ToggleObjects2Objects, false, runtimeScene, false);
+}if (gdjs.GameCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.GameCode.GDs3SwitchObjects2 */
+/* Reuse gdjs.GameCode.GDs4ToggleObjects2 */
+{for(var i = 0, len = gdjs.GameCode.GDs4ToggleObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs4ToggleObjects2[i].setAnimation(1);
+}
+}{for(var i = 0, len = gdjs.GameCode.GDs3SwitchObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs3SwitchObjects2[i].deleteFromScene(runtimeScene);
+}
+}}
+
+}
+
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("pauseUI"), gdjs.GameCode.GDpauseUIObjects2);
 gdjs.copyArray(runtimeScene.getObjects("s4Coin"), gdjs.GameCode.GDs4CoinObjects2);
 
@@ -1096,9 +1315,11 @@ gdjs.copyArray(runtimeScene.getObjects("s4Coin"), gdjs.GameCode.GDs4CoinObjects2
 {
 
 gdjs.copyArray(runtimeScene.getObjects("misc"), gdjs.GameCode.GDmiscObjects2);
+gdjs.copyArray(runtimeScene.getObjects("s4Light"), gdjs.GameCode.GDs4LightObjects2);
 
 gdjs.GameCode.condition0IsTrue_0.val = false;
 gdjs.GameCode.condition1IsTrue_0.val = false;
+gdjs.GameCode.condition2IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.GameCode.GDmiscObjects2.length;i<l;++i) {
     if ( gdjs.GameCode.GDmiscObjects2[i].getVariableNumber(gdjs.GameCode.GDmiscObjects2[i].getVariables().get("id")) == 3 ) {
@@ -1110,8 +1331,18 @@ for(var i = 0, k = 0, l = gdjs.GameCode.GDmiscObjects2.length;i<l;++i) {
 gdjs.GameCode.GDmiscObjects2.length = k;}if ( gdjs.GameCode.condition0IsTrue_0.val ) {
 {
 gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.object.getSceneInstancesCount((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfEmptyGDs1t1Objects) <= 0;
-}}
-if (gdjs.GameCode.condition1IsTrue_0.val) {
+}if ( gdjs.GameCode.condition1IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs4LightObjects2.length;i<l;++i) {
+    if ( !(gdjs.GameCode.GDs4LightObjects2[i].isVisible()) ) {
+        gdjs.GameCode.condition2IsTrue_0.val = true;
+        gdjs.GameCode.GDs4LightObjects2[k] = gdjs.GameCode.GDs4LightObjects2[i];
+        ++k;
+    }
+}
+gdjs.GameCode.GDs4LightObjects2.length = k;}}
+}
+if (gdjs.GameCode.condition2IsTrue_0.val) {
 /* Reuse gdjs.GameCode.GDmiscObjects2 */
 gdjs.copyArray(runtimeScene.getObjects("s5BG"), gdjs.GameCode.GDs5BGObjects2);
 {gdjs.evtsExt__GameExtensions__StageChange.func(runtimeScene, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs5BGObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
@@ -1122,18 +1353,18 @@ gdjs.copyArray(runtimeScene.getObjects("s5BG"), gdjs.GameCode.GDs5BGObjects2);
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("s4tToggle"), gdjs.GameCode.GDs4tToggleObjects2);
+gdjs.copyArray(runtimeScene.getObjects("s4Toggle"), gdjs.GameCode.GDs4ToggleObjects2);
 
 gdjs.GameCode.condition0IsTrue_0.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.GameCode.GDs4tToggleObjects2.length;i<l;++i) {
-    if ( gdjs.GameCode.GDs4tToggleObjects2[i].IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs4ToggleObjects2.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs4ToggleObjects2[i].getAnimation() == 1 ) {
         gdjs.GameCode.condition0IsTrue_0.val = true;
-        gdjs.GameCode.GDs4tToggleObjects2[k] = gdjs.GameCode.GDs4tToggleObjects2[i];
+        gdjs.GameCode.GDs4ToggleObjects2[k] = gdjs.GameCode.GDs4ToggleObjects2[i];
         ++k;
     }
 }
-gdjs.GameCode.GDs4tToggleObjects2.length = k;}if (gdjs.GameCode.condition0IsTrue_0.val) {
+gdjs.GameCode.GDs4ToggleObjects2.length = k;}if (gdjs.GameCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("s4Light"), gdjs.GameCode.GDs4LightObjects2);
 {for(var i = 0, len = gdjs.GameCode.GDs4LightObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDs4LightObjects2[i].hide();
@@ -1148,18 +1379,18 @@ gdjs.GameCode.eventsList7(runtimeScene);} //End of subevents
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("s4tToggle"), gdjs.GameCode.GDs4tToggleObjects1);
+gdjs.copyArray(runtimeScene.getObjects("s4Toggle"), gdjs.GameCode.GDs4ToggleObjects1);
 
 gdjs.GameCode.condition0IsTrue_0.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.GameCode.GDs4tToggleObjects1.length;i<l;++i) {
-    if ( !(gdjs.GameCode.GDs4tToggleObjects1[i].IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) ) {
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs4ToggleObjects1.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs4ToggleObjects1[i].getAnimation() == 0 ) {
         gdjs.GameCode.condition0IsTrue_0.val = true;
-        gdjs.GameCode.GDs4tToggleObjects1[k] = gdjs.GameCode.GDs4tToggleObjects1[i];
+        gdjs.GameCode.GDs4ToggleObjects1[k] = gdjs.GameCode.GDs4ToggleObjects1[i];
         ++k;
     }
 }
-gdjs.GameCode.GDs4tToggleObjects1.length = k;}if (gdjs.GameCode.condition0IsTrue_0.val) {
+gdjs.GameCode.GDs4ToggleObjects1.length = k;}if (gdjs.GameCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("s4Light"), gdjs.GameCode.GDs4LightObjects1);
 {for(var i = 0, len = gdjs.GameCode.GDs4LightObjects1.length ;i < len;++i) {
     gdjs.GameCode.GDs4LightObjects1[i].hide(false);
@@ -1174,17 +1405,24 @@ gdjs.GameCode.eventsList8(runtimeScene);} //End of subevents
 
 };gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects = Hashtable.newFrom({"misc": gdjs.GameCode.GDmiscObjects2});
 gdjs.GameCode.mapOfEmptyGDS5POPframeObjects = Hashtable.newFrom({"S5POPframe": []});
+gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs5dooropen1Objects2Objects = Hashtable.newFrom({"s5dooropen1": gdjs.GameCode.GDs5dooropen1Objects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects = Hashtable.newFrom({"misc": gdjs.GameCode.GDmiscObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs6BGObjects2Objects = Hashtable.newFrom({"s6BG": gdjs.GameCode.GDs6BGObjects2});
+gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs5dooropen2Objects2Objects = Hashtable.newFrom({"s5dooropen2": gdjs.GameCode.GDs5dooropen2Objects2});
+gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects = Hashtable.newFrom({"misc": gdjs.GameCode.GDmiscObjects2});
+gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs7BGObjects2Objects = Hashtable.newFrom({"s7BG": gdjs.GameCode.GDs7BGObjects2});
+gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects = Hashtable.newFrom({"misc": gdjs.GameCode.GDmiscObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs5popimgObjects2ObjectsGDgdjs_46GameCode_46GDs5popimg2Objects2ObjectsGDgdjs_46GameCode_46GDs5gridBGObjects2ObjectsGDgdjs_46GameCode_46GDs5popimg3Objects2ObjectsGDgdjs_46GameCode_46GDs5popimg4Objects2Objects = Hashtable.newFrom({"s5popimg": gdjs.GameCode.GDs5popimgObjects2, "s5popimg2": gdjs.GameCode.GDs5popimg2Objects2, "s5gridBG": gdjs.GameCode.GDs5gridBGObjects2, "s5popimg3": gdjs.GameCode.GDs5popimg3Objects2, "s5popimg4": gdjs.GameCode.GDs5popimg4Objects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs5popimgObjects2Objects = Hashtable.newFrom({"s5popimg": gdjs.GameCode.GDs5popimgObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs5popimg2Objects2Objects = Hashtable.newFrom({"s5popimg2": gdjs.GameCode.GDs5popimg2Objects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs5gridBGObjects2Objects = Hashtable.newFrom({"s5gridBG": gdjs.GameCode.GDs5gridBGObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs5popimg3Objects2Objects = Hashtable.newFrom({"s5popimg3": gdjs.GameCode.GDs5popimg3Objects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs5popimg4Objects2Objects = Hashtable.newFrom({"s5popimg4": gdjs.GameCode.GDs5popimg4Objects2});
-gdjs.GameCode.asyncCallback10634100 = function (runtimeScene, asyncObjectsList) {
-gdjs.copyArray(runtimeScene.getObjects("s6BG"), gdjs.GameCode.GDs6BGObjects4);
-{gdjs.evtTools.tween.tweenCamera(runtimeScene, "Camera", (( gdjs.GameCode.GDs6BGObjects4.length === 0 ) ? 0 :gdjs.GameCode.GDs6BGObjects4[0].getCenterXInScene()), (( gdjs.GameCode.GDs6BGObjects4.length === 0 ) ? 0 :gdjs.GameCode.GDs6BGObjects4[0].getCenterYInScene()), "", 500, "easeOutQuad");
+gdjs.GameCode.asyncCallback10673644 = function (runtimeScene, asyncObjectsList) {
+gdjs.copyArray(runtimeScene.getObjects("s5dooropen1"), gdjs.GameCode.GDs5dooropen1Objects3);
+{for(var i = 0, len = gdjs.GameCode.GDs5dooropen1Objects3.length ;i < len;++i) {
+    gdjs.GameCode.GDs5dooropen1Objects3[i].hide(false);
+}
 }}
 gdjs.GameCode.eventsList10 = function(runtimeScene, asyncObjectsList) {
 
@@ -1195,45 +1433,45 @@ gdjs.GameCode.eventsList10 = function(runtimeScene, asyncObjectsList) {
 const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback10634100(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GameCode.asyncCallback10673644(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback10633060 = function (runtimeScene, asyncObjectsList) {
-gdjs.copyArray(runtimeScene.getObjects("S5POPframe"), gdjs.GameCode.GDS5POPframeObjects3);
-gdjs.copyArray(runtimeScene.getObjects("closeBtnUI"), gdjs.GameCode.GDcloseBtnUIObjects3);
-gdjs.copyArray(runtimeScene.getObjects("s5gridBG"), gdjs.GameCode.GDs5gridBGObjects3);
-gdjs.copyArray(asyncObjectsList.getObjects("s5popimg"), gdjs.GameCode.GDs5popimgObjects3);
+};gdjs.GameCode.asyncCallback10672836 = function (runtimeScene, asyncObjectsList) {
+gdjs.copyArray(runtimeScene.getObjects("S5POPframe"), gdjs.GameCode.GDS5POPframeObjects2);
+gdjs.copyArray(runtimeScene.getObjects("closeBtnUI"), gdjs.GameCode.GDcloseBtnUIObjects2);
+gdjs.copyArray(runtimeScene.getObjects("s5gridBG"), gdjs.GameCode.GDs5gridBGObjects2);
+gdjs.copyArray(asyncObjectsList.getObjects("s5popimg"), gdjs.GameCode.GDs5popimgObjects2);
 
-gdjs.copyArray(asyncObjectsList.getObjects("s5popimg2"), gdjs.GameCode.GDs5popimg2Objects3);
+gdjs.copyArray(asyncObjectsList.getObjects("s5popimg2"), gdjs.GameCode.GDs5popimg2Objects2);
 
-gdjs.copyArray(asyncObjectsList.getObjects("s5popimg3"), gdjs.GameCode.GDs5popimg3Objects3);
+gdjs.copyArray(asyncObjectsList.getObjects("s5popimg3"), gdjs.GameCode.GDs5popimg3Objects2);
 
-gdjs.copyArray(asyncObjectsList.getObjects("s5popimg4"), gdjs.GameCode.GDs5popimg4Objects3);
+gdjs.copyArray(asyncObjectsList.getObjects("s5popimg4"), gdjs.GameCode.GDs5popimg4Objects2);
 
-{for(var i = 0, len = gdjs.GameCode.GDS5POPframeObjects3.length ;i < len;++i) {
-    gdjs.GameCode.GDS5POPframeObjects3[i].deleteFromScene(runtimeScene);
+{for(var i = 0, len = gdjs.GameCode.GDS5POPframeObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDS5POPframeObjects2[i].deleteFromScene(runtimeScene);
 }
-}{for(var i = 0, len = gdjs.GameCode.GDcloseBtnUIObjects3.length ;i < len;++i) {
-    gdjs.GameCode.GDcloseBtnUIObjects3[i].deleteFromScene(runtimeScene);
+}{for(var i = 0, len = gdjs.GameCode.GDcloseBtnUIObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDcloseBtnUIObjects2[i].deleteFromScene(runtimeScene);
 }
-}{for(var i = 0, len = gdjs.GameCode.GDs5popimgObjects3.length ;i < len;++i) {
-    gdjs.GameCode.GDs5popimgObjects3[i].deleteFromScene(runtimeScene);
+}{for(var i = 0, len = gdjs.GameCode.GDs5popimgObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs5popimgObjects2[i].deleteFromScene(runtimeScene);
 }
-for(var i = 0, len = gdjs.GameCode.GDs5popimg2Objects3.length ;i < len;++i) {
-    gdjs.GameCode.GDs5popimg2Objects3[i].deleteFromScene(runtimeScene);
+for(var i = 0, len = gdjs.GameCode.GDs5popimg2Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs5popimg2Objects2[i].deleteFromScene(runtimeScene);
 }
-for(var i = 0, len = gdjs.GameCode.GDs5gridBGObjects3.length ;i < len;++i) {
-    gdjs.GameCode.GDs5gridBGObjects3[i].deleteFromScene(runtimeScene);
+for(var i = 0, len = gdjs.GameCode.GDs5gridBGObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs5gridBGObjects2[i].deleteFromScene(runtimeScene);
 }
-for(var i = 0, len = gdjs.GameCode.GDs5popimg3Objects3.length ;i < len;++i) {
-    gdjs.GameCode.GDs5popimg3Objects3[i].deleteFromScene(runtimeScene);
+for(var i = 0, len = gdjs.GameCode.GDs5popimg3Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs5popimg3Objects2[i].deleteFromScene(runtimeScene);
 }
-for(var i = 0, len = gdjs.GameCode.GDs5popimg4Objects3.length ;i < len;++i) {
-    gdjs.GameCode.GDs5popimg4Objects3[i].deleteFromScene(runtimeScene);
+for(var i = 0, len = gdjs.GameCode.GDs5popimg4Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs5popimg4Objects2[i].deleteFromScene(runtimeScene);
 }
 }
 { //Subevents
@@ -1247,11 +1485,11 @@ gdjs.GameCode.eventsList11 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-for (const obj of gdjs.GameCode.GDs5popimgObjects2) asyncObjectsList.addObject("s5popimg", obj);
-for (const obj of gdjs.GameCode.GDs5popimg2Objects2) asyncObjectsList.addObject("s5popimg2", obj);
-for (const obj of gdjs.GameCode.GDs5popimg3Objects2) asyncObjectsList.addObject("s5popimg3", obj);
-for (const obj of gdjs.GameCode.GDs5popimg4Objects2) asyncObjectsList.addObject("s5popimg4", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GameCode.asyncCallback10633060(runtimeScene, asyncObjectsList)));
+for (const obj of gdjs.GameCode.GDs5popimgObjects1) asyncObjectsList.addObject("s5popimg", obj);
+for (const obj of gdjs.GameCode.GDs5popimg2Objects1) asyncObjectsList.addObject("s5popimg2", obj);
+for (const obj of gdjs.GameCode.GDs5popimg3Objects1) asyncObjectsList.addObject("s5popimg3", obj);
+for (const obj of gdjs.GameCode.GDs5popimg4Objects1) asyncObjectsList.addObject("s5popimg4", obj);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GameCode.asyncCallback10672836(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -1262,12 +1500,43 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 
 {
 
+
+gdjs.GameCode.condition0IsTrue_0.val = false;
+{
+gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+}if (gdjs.GameCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("s5dooropen1"), gdjs.GameCode.GDs5dooropen1Objects2);
+gdjs.copyArray(runtimeScene.getObjects("s5dooropen2"), gdjs.GameCode.GDs5dooropen2Objects2);
+{for(var i = 0, len = gdjs.GameCode.GDs5dooropen1Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs5dooropen1Objects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.GameCode.GDs5dooropen2Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs5dooropen2Objects2[i].hide();
+}
+}}
+
+}
+
+
+{
+
+
+{
+}
+
+}
+
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("misc"), gdjs.GameCode.GDmiscObjects2);
+gdjs.copyArray(runtimeScene.getObjects("s5dooropen1"), gdjs.GameCode.GDs5dooropen1Objects2);
 
 gdjs.GameCode.condition0IsTrue_0.val = false;
 gdjs.GameCode.condition1IsTrue_0.val = false;
 gdjs.GameCode.condition2IsTrue_0.val = false;
 gdjs.GameCode.condition3IsTrue_0.val = false;
+gdjs.GameCode.condition4IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.GameCode.GDmiscObjects2.length;i<l;++i) {
     if ( gdjs.GameCode.GDmiscObjects2[i].getVariableNumber(gdjs.GameCode.GDmiscObjects2[i].getVariables().get("id")) == 4 ) {
@@ -1285,10 +1554,20 @@ gdjs.GameCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased
 }if ( gdjs.GameCode.condition2IsTrue_0.val ) {
 {
 gdjs.GameCode.condition3IsTrue_0.val = gdjs.evtTools.object.getSceneInstancesCount((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfEmptyGDS5POPframeObjects) < 1;
-}}
+}if ( gdjs.GameCode.condition3IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs5dooropen1Objects2.length;i<l;++i) {
+    if ( !(gdjs.GameCode.GDs5dooropen1Objects2[i].isVisible()) ) {
+        gdjs.GameCode.condition4IsTrue_0.val = true;
+        gdjs.GameCode.GDs5dooropen1Objects2[k] = gdjs.GameCode.GDs5dooropen1Objects2[i];
+        ++k;
+    }
+}
+gdjs.GameCode.GDs5dooropen1Objects2.length = k;}}
 }
 }
-if (gdjs.GameCode.condition3IsTrue_0.val) {
+}
+if (gdjs.GameCode.condition4IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.createObjectsFromExternalLayout(runtimeScene, "S5Pop", 1600 - 50, -(600));
 }}
 
@@ -1297,7 +1576,64 @@ if (gdjs.GameCode.condition3IsTrue_0.val) {
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("s5dooropen1"), gdjs.GameCode.GDs5dooropen1Objects2);
 
+gdjs.GameCode.condition0IsTrue_0.val = false;
+gdjs.GameCode.condition1IsTrue_0.val = false;
+gdjs.GameCode.condition2IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs5dooropen1Objects2.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs5dooropen1Objects2[i].isVisible() ) {
+        gdjs.GameCode.condition0IsTrue_0.val = true;
+        gdjs.GameCode.GDs5dooropen1Objects2[k] = gdjs.GameCode.GDs5dooropen1Objects2[i];
+        ++k;
+    }
+}
+gdjs.GameCode.GDs5dooropen1Objects2.length = k;}if ( gdjs.GameCode.condition0IsTrue_0.val ) {
+{
+gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs5dooropen1Objects2Objects, runtimeScene, true, false);
+}if ( gdjs.GameCode.condition1IsTrue_0.val ) {
+{
+gdjs.GameCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+}
+if (gdjs.GameCode.condition2IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("misc"), gdjs.GameCode.GDmiscObjects2);
+gdjs.copyArray(runtimeScene.getObjects("s6BG"), gdjs.GameCode.GDs6BGObjects2);
+{gdjs.evtsExt__GameExtensions__StageChange.func(runtimeScene, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs6BGObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("s5dooropen2"), gdjs.GameCode.GDs5dooropen2Objects2);
+
+gdjs.GameCode.condition0IsTrue_0.val = false;
+gdjs.GameCode.condition1IsTrue_0.val = false;
+gdjs.GameCode.condition2IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs5dooropen2Objects2.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs5dooropen2Objects2[i].isVisible() ) {
+        gdjs.GameCode.condition0IsTrue_0.val = true;
+        gdjs.GameCode.GDs5dooropen2Objects2[k] = gdjs.GameCode.GDs5dooropen2Objects2[i];
+        ++k;
+    }
+}
+gdjs.GameCode.GDs5dooropen2Objects2.length = k;}if ( gdjs.GameCode.condition0IsTrue_0.val ) {
+{
+gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs5dooropen2Objects2Objects, runtimeScene, true, false);
+}if ( gdjs.GameCode.condition1IsTrue_0.val ) {
+{
+gdjs.GameCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+}
+if (gdjs.GameCode.condition2IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("misc"), gdjs.GameCode.GDmiscObjects2);
+gdjs.copyArray(runtimeScene.getObjects("s7BG"), gdjs.GameCode.GDs7BGObjects2);
+{gdjs.evtsExt__GameExtensions__StageChange.func(runtimeScene, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs7BGObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
 
 }
 
@@ -1307,6 +1643,8 @@ if (gdjs.GameCode.condition3IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("misc"), gdjs.GameCode.GDmiscObjects2);
 
 gdjs.GameCode.condition0IsTrue_0.val = false;
+gdjs.GameCode.condition1IsTrue_0.val = false;
+gdjs.GameCode.condition2IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.GameCode.GDmiscObjects2.length;i<l;++i) {
     if ( gdjs.GameCode.GDmiscObjects2[i].getVariableNumber(gdjs.GameCode.GDmiscObjects2[i].getVariables().get("id")) == 7 ) {
@@ -1315,10 +1653,19 @@ for(var i = 0, k = 0, l = gdjs.GameCode.GDmiscObjects2.length;i<l;++i) {
         ++k;
     }
 }
-gdjs.GameCode.GDmiscObjects2.length = k;}if (gdjs.GameCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.GameCode.GDmiscObjects2 */
-gdjs.copyArray(runtimeScene.getObjects("s6BG"), gdjs.GameCode.GDs6BGObjects2);
-{gdjs.evtsExt__GameExtensions__StageChange.func(runtimeScene, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs6BGObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+gdjs.GameCode.GDmiscObjects2.length = k;}if ( gdjs.GameCode.condition0IsTrue_0.val ) {
+{
+gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects, runtimeScene, true, false);
+}if ( gdjs.GameCode.condition1IsTrue_0.val ) {
+{
+gdjs.GameCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+}
+if (gdjs.GameCode.condition2IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("s5dooropen2"), gdjs.GameCode.GDs5dooropen2Objects2);
+{for(var i = 0, len = gdjs.GameCode.GDs5dooropen2Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs5dooropen2Objects2[i].hide(false);
+}
 }}
 
 }
@@ -1367,10 +1714,10 @@ for(var i = 0, len = gdjs.GameCode.GDs5popimg4Objects2.length ;i < len;++i) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("s5popimg"), gdjs.GameCode.GDs5popimgObjects2);
-gdjs.copyArray(runtimeScene.getObjects("s5popimg2"), gdjs.GameCode.GDs5popimg2Objects2);
-gdjs.copyArray(runtimeScene.getObjects("s5popimg3"), gdjs.GameCode.GDs5popimg3Objects2);
-gdjs.copyArray(runtimeScene.getObjects("s5popimg4"), gdjs.GameCode.GDs5popimg4Objects2);
+gdjs.copyArray(runtimeScene.getObjects("s5popimg"), gdjs.GameCode.GDs5popimgObjects1);
+gdjs.copyArray(runtimeScene.getObjects("s5popimg2"), gdjs.GameCode.GDs5popimg2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("s5popimg3"), gdjs.GameCode.GDs5popimg3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("s5popimg4"), gdjs.GameCode.GDs5popimg4Objects1);
 
 gdjs.GameCode.condition0IsTrue_0.val = false;
 gdjs.GameCode.condition1IsTrue_0.val = false;
@@ -1382,80 +1729,80 @@ gdjs.GameCode.condition6IsTrue_0.val = false;
 gdjs.GameCode.condition7IsTrue_0.val = false;
 gdjs.GameCode.condition8IsTrue_0.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.GameCode.GDs5popimg2Objects2.length;i<l;++i) {
-    if ( gdjs.GameCode.GDs5popimg2Objects2[i].getX() == 1750 ) {
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs5popimg2Objects1.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs5popimg2Objects1[i].getX() == 1750 ) {
         gdjs.GameCode.condition0IsTrue_0.val = true;
-        gdjs.GameCode.GDs5popimg2Objects2[k] = gdjs.GameCode.GDs5popimg2Objects2[i];
+        gdjs.GameCode.GDs5popimg2Objects1[k] = gdjs.GameCode.GDs5popimg2Objects1[i];
         ++k;
     }
 }
-gdjs.GameCode.GDs5popimg2Objects2.length = k;}if ( gdjs.GameCode.condition0IsTrue_0.val ) {
+gdjs.GameCode.GDs5popimg2Objects1.length = k;}if ( gdjs.GameCode.condition0IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.GameCode.GDs5popimg2Objects2.length;i<l;++i) {
-    if ( gdjs.GameCode.GDs5popimg2Objects2[i].getY() == -(315) ) {
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs5popimg2Objects1.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs5popimg2Objects1[i].getY() == -(315) ) {
         gdjs.GameCode.condition1IsTrue_0.val = true;
-        gdjs.GameCode.GDs5popimg2Objects2[k] = gdjs.GameCode.GDs5popimg2Objects2[i];
+        gdjs.GameCode.GDs5popimg2Objects1[k] = gdjs.GameCode.GDs5popimg2Objects1[i];
         ++k;
     }
 }
-gdjs.GameCode.GDs5popimg2Objects2.length = k;}if ( gdjs.GameCode.condition1IsTrue_0.val ) {
+gdjs.GameCode.GDs5popimg2Objects1.length = k;}if ( gdjs.GameCode.condition1IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.GameCode.GDs5popimgObjects2.length;i<l;++i) {
-    if ( gdjs.GameCode.GDs5popimgObjects2[i].getX() == 1875 ) {
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs5popimgObjects1.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs5popimgObjects1[i].getX() == 1875 ) {
         gdjs.GameCode.condition2IsTrue_0.val = true;
-        gdjs.GameCode.GDs5popimgObjects2[k] = gdjs.GameCode.GDs5popimgObjects2[i];
+        gdjs.GameCode.GDs5popimgObjects1[k] = gdjs.GameCode.GDs5popimgObjects1[i];
         ++k;
     }
 }
-gdjs.GameCode.GDs5popimgObjects2.length = k;}if ( gdjs.GameCode.condition2IsTrue_0.val ) {
+gdjs.GameCode.GDs5popimgObjects1.length = k;}if ( gdjs.GameCode.condition2IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.GameCode.GDs5popimgObjects2.length;i<l;++i) {
-    if ( gdjs.GameCode.GDs5popimgObjects2[i].getY() == -(315) ) {
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs5popimgObjects1.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs5popimgObjects1[i].getY() == -(315) ) {
         gdjs.GameCode.condition3IsTrue_0.val = true;
-        gdjs.GameCode.GDs5popimgObjects2[k] = gdjs.GameCode.GDs5popimgObjects2[i];
+        gdjs.GameCode.GDs5popimgObjects1[k] = gdjs.GameCode.GDs5popimgObjects1[i];
         ++k;
     }
 }
-gdjs.GameCode.GDs5popimgObjects2.length = k;}if ( gdjs.GameCode.condition3IsTrue_0.val ) {
+gdjs.GameCode.GDs5popimgObjects1.length = k;}if ( gdjs.GameCode.condition3IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.GameCode.GDs5popimg4Objects2.length;i<l;++i) {
-    if ( gdjs.GameCode.GDs5popimg4Objects2[i].getX() == 1750 ) {
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs5popimg4Objects1.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs5popimg4Objects1[i].getX() == 1750 ) {
         gdjs.GameCode.condition4IsTrue_0.val = true;
-        gdjs.GameCode.GDs5popimg4Objects2[k] = gdjs.GameCode.GDs5popimg4Objects2[i];
+        gdjs.GameCode.GDs5popimg4Objects1[k] = gdjs.GameCode.GDs5popimg4Objects1[i];
         ++k;
     }
 }
-gdjs.GameCode.GDs5popimg4Objects2.length = k;}if ( gdjs.GameCode.condition4IsTrue_0.val ) {
+gdjs.GameCode.GDs5popimg4Objects1.length = k;}if ( gdjs.GameCode.condition4IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.GameCode.GDs5popimg4Objects2.length;i<l;++i) {
-    if ( gdjs.GameCode.GDs5popimg4Objects2[i].getY() == -(440) ) {
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs5popimg4Objects1.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs5popimg4Objects1[i].getY() == -(440) ) {
         gdjs.GameCode.condition5IsTrue_0.val = true;
-        gdjs.GameCode.GDs5popimg4Objects2[k] = gdjs.GameCode.GDs5popimg4Objects2[i];
+        gdjs.GameCode.GDs5popimg4Objects1[k] = gdjs.GameCode.GDs5popimg4Objects1[i];
         ++k;
     }
 }
-gdjs.GameCode.GDs5popimg4Objects2.length = k;}if ( gdjs.GameCode.condition5IsTrue_0.val ) {
+gdjs.GameCode.GDs5popimg4Objects1.length = k;}if ( gdjs.GameCode.condition5IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.GameCode.GDs5popimg3Objects2.length;i<l;++i) {
-    if ( gdjs.GameCode.GDs5popimg3Objects2[i].getY() == -(440) ) {
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs5popimg3Objects1.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs5popimg3Objects1[i].getY() == -(440) ) {
         gdjs.GameCode.condition6IsTrue_0.val = true;
-        gdjs.GameCode.GDs5popimg3Objects2[k] = gdjs.GameCode.GDs5popimg3Objects2[i];
+        gdjs.GameCode.GDs5popimg3Objects1[k] = gdjs.GameCode.GDs5popimg3Objects1[i];
         ++k;
     }
 }
-gdjs.GameCode.GDs5popimg3Objects2.length = k;}if ( gdjs.GameCode.condition6IsTrue_0.val ) {
+gdjs.GameCode.GDs5popimg3Objects1.length = k;}if ( gdjs.GameCode.condition6IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.GameCode.GDs5popimg3Objects2.length;i<l;++i) {
-    if ( gdjs.GameCode.GDs5popimg3Objects2[i].getX() == 1875 ) {
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs5popimg3Objects1.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs5popimg3Objects1[i].getX() == 1875 ) {
         gdjs.GameCode.condition7IsTrue_0.val = true;
-        gdjs.GameCode.GDs5popimg3Objects2[k] = gdjs.GameCode.GDs5popimg3Objects2[i];
+        gdjs.GameCode.GDs5popimg3Objects1[k] = gdjs.GameCode.GDs5popimg3Objects1[i];
         ++k;
     }
 }
-gdjs.GameCode.GDs5popimg3Objects2.length = k;}if ( gdjs.GameCode.condition7IsTrue_0.val ) {
+gdjs.GameCode.GDs5popimg3Objects1.length = k;}if ( gdjs.GameCode.condition7IsTrue_0.val ) {
 {
 {gdjs.GameCode.conditionTrue_1 = gdjs.GameCode.condition8IsTrue_0;
-gdjs.GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10632516);
+gdjs.GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10672988);
 }
 }}
 }
@@ -1474,20 +1821,11 @@ gdjs.GameCode.eventsList11(runtimeScene);} //End of subevents
 }
 
 
-{
-
-
-{
-}
-
-}
-
-
 };gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs5t1Objects2Objects = Hashtable.newFrom({"s5t1": gdjs.GameCode.GDs5t1Objects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects = Hashtable.newFrom({"misc": gdjs.GameCode.GDmiscObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs5t1Objects2Objects = Hashtable.newFrom({"s5t1": gdjs.GameCode.GDs5t1Objects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDpauseUIObjects2Objects = Hashtable.newFrom({"pauseUI": gdjs.GameCode.GDpauseUIObjects2});
-gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects = Hashtable.newFrom({"misc": gdjs.GameCode.GDmiscObjects2});
+gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects1Objects = Hashtable.newFrom({"misc": gdjs.GameCode.GDmiscObjects1});
 gdjs.GameCode.mapOfEmptyGDS6POPframeObjects = Hashtable.newFrom({"S6POPframe": []});
 gdjs.GameCode.eventsList13 = function(runtimeScene) {
 
@@ -1517,32 +1855,23 @@ gdjs.copyArray(runtimeScene.getObjects("s5t1"), gdjs.GameCode.GDs5t1Objects2);
 
 {
 
-
-{
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("misc"), gdjs.GameCode.GDmiscObjects2);
+gdjs.copyArray(runtimeScene.getObjects("misc"), gdjs.GameCode.GDmiscObjects1);
 
 gdjs.GameCode.condition0IsTrue_0.val = false;
 gdjs.GameCode.condition1IsTrue_0.val = false;
 gdjs.GameCode.condition2IsTrue_0.val = false;
 gdjs.GameCode.condition3IsTrue_0.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.GameCode.GDmiscObjects2.length;i<l;++i) {
-    if ( gdjs.GameCode.GDmiscObjects2[i].getVariableNumber(gdjs.GameCode.GDmiscObjects2[i].getVariables().get("id")) == 5 ) {
+for(var i = 0, k = 0, l = gdjs.GameCode.GDmiscObjects1.length;i<l;++i) {
+    if ( gdjs.GameCode.GDmiscObjects1[i].getVariableNumber(gdjs.GameCode.GDmiscObjects1[i].getVariables().get("id")) == 5 ) {
         gdjs.GameCode.condition0IsTrue_0.val = true;
-        gdjs.GameCode.GDmiscObjects2[k] = gdjs.GameCode.GDmiscObjects2[i];
+        gdjs.GameCode.GDmiscObjects1[k] = gdjs.GameCode.GDmiscObjects1[i];
         ++k;
     }
 }
-gdjs.GameCode.GDmiscObjects2.length = k;}if ( gdjs.GameCode.condition0IsTrue_0.val ) {
+gdjs.GameCode.GDmiscObjects1.length = k;}if ( gdjs.GameCode.condition0IsTrue_0.val ) {
 {
-gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects, runtimeScene, true, false);
+gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects1Objects, runtimeScene, true, false);
 }if ( gdjs.GameCode.condition1IsTrue_0.val ) {
 {
 gdjs.GameCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
@@ -1559,19 +1888,7 @@ if (gdjs.GameCode.condition3IsTrue_0.val) {
 }
 
 
-{
-
-
-{
-}
-
-}
-
-
-};gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects = Hashtable.newFrom({"misc": gdjs.GameCode.GDmiscObjects2});
-gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects = Hashtable.newFrom({"misc": gdjs.GameCode.GDmiscObjects2});
-gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs7BGObjects2Objects = Hashtable.newFrom({"s7BG": gdjs.GameCode.GDs7BGObjects2});
-gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs6CoinObjects2Objects = Hashtable.newFrom({"s6Coin": gdjs.GameCode.GDs6CoinObjects2});
+};gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs6CoinObjects2Objects = Hashtable.newFrom({"s6Coin": gdjs.GameCode.GDs6CoinObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects = Hashtable.newFrom({"misc": gdjs.GameCode.GDmiscObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs6CoinObjects2Objects = Hashtable.newFrom({"s6Coin": gdjs.GameCode.GDs6CoinObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDpauseUIObjects2Objects = Hashtable.newFrom({"pauseUI": gdjs.GameCode.GDpauseUIObjects2});
@@ -1582,38 +1899,6 @@ gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs6boxCodeObjects2Objects = Hashtable.ne
 gdjs.GameCode.mapOfEmptyGDs2CoinObjectsEmptyGDs3CoinObjectsEmptyGDs4CoinObjectsEmptyGDs5CoinObjectsEmptyGDs6CoinObjectsEmptyGDs7CoinObjectsEmptyGDs2Coin2Objects = Hashtable.newFrom({"s2Coin": [], "s3Coin": [], "s4Coin": [], "s5Coin": [], "s6Coin": [], "s7Coin": [], "s2Coin2": []});
 gdjs.GameCode.mapOfEmptyGDs2CoinObjectsEmptyGDs3CoinObjectsEmptyGDs4CoinObjectsEmptyGDs5CoinObjectsEmptyGDs6CoinObjectsEmptyGDs7CoinObjectsEmptyGDs2Coin2Objects = Hashtable.newFrom({"s2Coin": [], "s3Coin": [], "s4Coin": [], "s5Coin": [], "s6Coin": [], "s7Coin": [], "s2Coin2": []});
 gdjs.GameCode.eventsList14 = function(runtimeScene) {
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("misc"), gdjs.GameCode.GDmiscObjects2);
-
-gdjs.GameCode.condition0IsTrue_0.val = false;
-gdjs.GameCode.condition1IsTrue_0.val = false;
-gdjs.GameCode.condition2IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.GameCode.GDmiscObjects2.length;i<l;++i) {
-    if ( gdjs.GameCode.GDmiscObjects2[i].getVariableNumber(gdjs.GameCode.GDmiscObjects2[i].getVariables().get("id")) == 7 ) {
-        gdjs.GameCode.condition0IsTrue_0.val = true;
-        gdjs.GameCode.GDmiscObjects2[k] = gdjs.GameCode.GDmiscObjects2[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDmiscObjects2.length = k;}if ( gdjs.GameCode.condition0IsTrue_0.val ) {
-{
-gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects, runtimeScene, true, false);
-}if ( gdjs.GameCode.condition1IsTrue_0.val ) {
-{
-gdjs.GameCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
-}}
-}
-if (gdjs.GameCode.condition2IsTrue_0.val) {
-/* Reuse gdjs.GameCode.GDmiscObjects2 */
-gdjs.copyArray(runtimeScene.getObjects("s7BG"), gdjs.GameCode.GDs7BGObjects2);
-{gdjs.evtsExt__GameExtensions__StageChange.func(runtimeScene, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs7BGObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}}
-
-}
-
 
 {
 
@@ -1819,7 +2104,7 @@ gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs7ChairHoleObjects2Objects = Hashtable.
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs7chessObjects2Objects = Hashtable.newFrom({"s7chess": gdjs.GameCode.GDs7chessObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDkeyObjects2Objects = Hashtable.newFrom({"key": gdjs.GameCode.GDkeyObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects = Hashtable.newFrom({"misc": gdjs.GameCode.GDmiscObjects2});
-gdjs.GameCode.asyncCallback11170404 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameCode.asyncCallback10690252 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Menu", false);
 }}
 gdjs.GameCode.eventsList15 = function(runtimeScene) {
@@ -1830,7 +2115,7 @@ gdjs.GameCode.eventsList15 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.GameCode.asyncCallback11170404(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.GameCode.asyncCallback10690252(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -1847,13 +2132,16 @@ gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects = Hashtable.newFrom
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs5CoinObjects2Objects = Hashtable.newFrom({"s5Coin": gdjs.GameCode.GDs5CoinObjects2});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects = Hashtable.newFrom({"misc": gdjs.GameCode.GDmiscObjects2});
 gdjs.GameCode.mapOfEmptyGDS7POPframeObjects = Hashtable.newFrom({"S7POPframe": []});
-gdjs.GameCode.mapOfEmptyGDs2CoinObjectsEmptyGDs3CoinObjectsEmptyGDs4CoinObjectsEmptyGDs5CoinObjectsEmptyGDs6CoinObjectsEmptyGDs7CoinObjectsEmptyGDs2Coin2Objects = Hashtable.newFrom({"s2Coin": [], "s3Coin": [], "s4Coin": [], "s5Coin": [], "s6Coin": [], "s7Coin": [], "s2Coin2": []});
 gdjs.GameCode.mapOfEmptyGDkeyObjects = Hashtable.newFrom({"key": []});
 gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDkeyObjects4Objects = Hashtable.newFrom({"key": gdjs.GameCode.GDkeyObjects4});
-gdjs.GameCode.asyncCallback11179596 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameCode.asyncCallback10698044 = function (runtimeScene, asyncObjectsList) {
+gdjs.copyArray(runtimeScene.getObjects("s7chest"), gdjs.GameCode.GDs7chestObjects4);
 gdjs.GameCode.GDkeyObjects4.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDkeyObjects4Objects, 2754, -(140), "");
+{for(var i = 0, len = gdjs.GameCode.GDs7chestObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDs7chestObjects4[i].hide(false);
+}
+}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDkeyObjects4Objects, 2754, -(140), "");
 }}
 gdjs.GameCode.eventsList16 = function(runtimeScene, asyncObjectsList) {
 
@@ -1864,25 +2152,41 @@ gdjs.GameCode.eventsList16 = function(runtimeScene, asyncObjectsList) {
 const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GameCode.asyncCallback11179596(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback10698044(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback11168420 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback10697564 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(runtimeScene.getObjects("S7POPframe"), gdjs.GameCode.GDS7POPframeObjects3);
 gdjs.copyArray(runtimeScene.getObjects("closeBtnUI"), gdjs.GameCode.GDcloseBtnUIObjects3);
-gdjs.copyArray(runtimeScene.getObjects("s7popButtons"), gdjs.GameCode.GDs7popButtonsObjects3);
+gdjs.copyArray(asyncObjectsList.getObjects("s7popButtons"), gdjs.GameCode.GDs7popButtonsObjects3);
+
+gdjs.copyArray(asyncObjectsList.getObjects("s7popButtons2"), gdjs.GameCode.GDs7popButtons2Objects3);
+
+gdjs.copyArray(asyncObjectsList.getObjects("s7popButtons3"), gdjs.GameCode.GDs7popButtons3Objects3);
+
+gdjs.copyArray(asyncObjectsList.getObjects("s7popButtons4"), gdjs.GameCode.GDs7popButtons4Objects3);
+
 {for(var i = 0, len = gdjs.GameCode.GDs7popButtonsObjects3.length ;i < len;++i) {
     gdjs.GameCode.GDs7popButtonsObjects3[i].deleteFromScene(runtimeScene);
 }
-}{for(var i = 0, len = gdjs.GameCode.GDS7POPframeObjects3.length ;i < len;++i) {
-    gdjs.GameCode.GDS7POPframeObjects3[i].deleteFromScene(runtimeScene);
+for(var i = 0, len = gdjs.GameCode.GDs7popButtons2Objects3.length ;i < len;++i) {
+    gdjs.GameCode.GDs7popButtons2Objects3[i].deleteFromScene(runtimeScene);
+}
+for(var i = 0, len = gdjs.GameCode.GDs7popButtons3Objects3.length ;i < len;++i) {
+    gdjs.GameCode.GDs7popButtons3Objects3[i].deleteFromScene(runtimeScene);
+}
+for(var i = 0, len = gdjs.GameCode.GDs7popButtons4Objects3.length ;i < len;++i) {
+    gdjs.GameCode.GDs7popButtons4Objects3[i].deleteFromScene(runtimeScene);
 }
 }{for(var i = 0, len = gdjs.GameCode.GDcloseBtnUIObjects3.length ;i < len;++i) {
     gdjs.GameCode.GDcloseBtnUIObjects3[i].deleteFromScene(runtimeScene);
+}
+}{for(var i = 0, len = gdjs.GameCode.GDS7POPframeObjects3.length ;i < len;++i) {
+    gdjs.GameCode.GDS7POPframeObjects3[i].deleteFromScene(runtimeScene);
 }
 }
 { //Subevents
@@ -1896,14 +2200,19 @@ gdjs.GameCode.eventsList17 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback11168420(runtimeScene, asyncObjectsList)));
+for (const obj of gdjs.GameCode.GDs7popButtonsObjects2) asyncObjectsList.addObject("s7popButtons", obj);
+for (const obj of gdjs.GameCode.GDs7popButtons2Objects2) asyncObjectsList.addObject("s7popButtons2", obj);
+for (const obj of gdjs.GameCode.GDs7popButtons3Objects2) asyncObjectsList.addObject("s7popButtons3", obj);
+for (const obj of gdjs.GameCode.GDs7popButtons4Objects2) asyncObjectsList.addObject("s7popButtons4", obj);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.GameCode.asyncCallback10697564(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.eventsList18 = function(runtimeScene) {
+};gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs7popButtonsObjects2ObjectsGDgdjs_46GameCode_46GDs7popButtons2Objects2ObjectsGDgdjs_46GameCode_46GDs7popButtons3Objects2ObjectsGDgdjs_46GameCode_46GDs7popButtons4Objects2Objects = Hashtable.newFrom({"s7popButtons": gdjs.GameCode.GDs7popButtonsObjects2, "s7popButtons2": gdjs.GameCode.GDs7popButtons2Objects2, "s7popButtons3": gdjs.GameCode.GDs7popButtons3Objects2, "s7popButtons4": gdjs.GameCode.GDs7popButtons4Objects2});
+gdjs.GameCode.eventsList18 = function(runtimeScene) {
 
 {
 
@@ -1920,6 +2229,22 @@ gdjs.copyArray(runtimeScene.getObjects("s7rat"), gdjs.GameCode.GDs7ratObjects2);
 }{gdjs.evtsExt__GameExtensions__ScaleHover.func(runtimeScene, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs7ratObjects2Objects, "Tween", gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }{gdjs.evtsExt__GameExtensions__ScaleHover.func(runtimeScene, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs5CoinObjects2Objects, "Tween", gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }{gdjs.evtsExt__GameExtensions__ScaleHover.func(runtimeScene, gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDkeyObjects2Objects, "Tween", gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDmiscObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+{
+
+
+gdjs.GameCode.condition0IsTrue_0.val = false;
+{
+gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+}if (gdjs.GameCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("s7chest"), gdjs.GameCode.GDs7chestObjects2);
+{for(var i = 0, len = gdjs.GameCode.GDs7chestObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs7chestObjects2[i].hide();
+}
 }}
 
 }
@@ -1986,7 +2311,7 @@ gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTes
 }if ( gdjs.GameCode.condition1IsTrue_0.val ) {
 {
 {gdjs.GameCode.conditionTrue_1 = gdjs.GameCode.condition2IsTrue_0;
-gdjs.GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11169924);
+gdjs.GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10686612);
 }
 }}
 }
@@ -2004,6 +2329,19 @@ gdjs.GameCode.GDs7chessObjects2.length = 0;
 }
 }{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs7ChairHoleObjects2Objects, 2922, -(280), "");
 }{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs7chessObjects2Objects, 2950, -(270), "");
+}}
+
+}
+
+
+{
+
+
+{
+gdjs.copyArray(runtimeScene.getObjects("s7ChairHole"), gdjs.GameCode.GDs7ChairHoleObjects2);
+{for(var i = 0, len = gdjs.GameCode.GDs7ChairHoleObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs7ChairHoleObjects2[i].setZOrder(3);
+}
 }}
 
 }
@@ -2031,13 +2369,17 @@ gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTes
 }if ( gdjs.GameCode.condition1IsTrue_0.val ) {
 {
 {gdjs.GameCode.conditionTrue_1 = gdjs.GameCode.condition2IsTrue_0;
-gdjs.GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10645756);
+gdjs.GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10688516);
 }
 }}
 }
 if (gdjs.GameCode.condition2IsTrue_0.val) {
 /* Reuse gdjs.GameCode.GDkeyObjects2 */
-{for(var i = 0, len = gdjs.GameCode.GDkeyObjects2.length ;i < len;++i) {
+gdjs.copyArray(runtimeScene.getObjects("s6BG"), gdjs.GameCode.GDs6BGObjects2);
+{for(var i = 0, len = gdjs.GameCode.GDs6BGObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs6BGObjects2[i].setAnimation(1);
+}
+}{for(var i = 0, len = gdjs.GameCode.GDkeyObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDkeyObjects2[i].getBehavior("Tween").addObjectScaleTween((gdjs.GameCode.GDkeyObjects2[i].getName()) + "scaleOut", 2, 2, "easeOutQuad", 300, false, true);
 }
 }{for(var i = 0, len = gdjs.GameCode.GDkeyObjects2.length ;i < len;++i) {
@@ -2086,7 +2428,7 @@ gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTes
 }if ( gdjs.GameCode.condition1IsTrue_0.val ) {
 {
 {gdjs.GameCode.conditionTrue_1 = gdjs.GameCode.condition2IsTrue_0;
-gdjs.GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10648196);
+gdjs.GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10691692);
 }
 }}
 }
@@ -2128,7 +2470,7 @@ gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTes
 }if ( gdjs.GameCode.condition1IsTrue_0.val ) {
 {
 {gdjs.GameCode.conditionTrue_1 = gdjs.GameCode.condition2IsTrue_0;
-gdjs.GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10649940);
+gdjs.GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10693148);
 }
 }}
 }
@@ -2157,7 +2499,6 @@ gdjs.GameCode.condition1IsTrue_0.val = false;
 gdjs.GameCode.condition2IsTrue_0.val = false;
 gdjs.GameCode.condition3IsTrue_0.val = false;
 gdjs.GameCode.condition4IsTrue_0.val = false;
-gdjs.GameCode.condition5IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.GameCode.GDmiscObjects2.length;i<l;++i) {
     if ( gdjs.GameCode.GDmiscObjects2[i].getVariableNumber(gdjs.GameCode.GDmiscObjects2[i].getVariables().get("id")) == 11 ) {
@@ -2177,18 +2518,83 @@ gdjs.GameCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased
 gdjs.GameCode.condition3IsTrue_0.val = gdjs.evtTools.object.getSceneInstancesCount((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfEmptyGDS7POPframeObjects) < 1;
 }if ( gdjs.GameCode.condition3IsTrue_0.val ) {
 {
-gdjs.GameCode.condition4IsTrue_0.val = gdjs.evtTools.object.getSceneInstancesCount((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfEmptyGDs2CoinObjectsEmptyGDs3CoinObjectsEmptyGDs4CoinObjectsEmptyGDs5CoinObjectsEmptyGDs6CoinObjectsEmptyGDs7CoinObjectsEmptyGDs2Coin2Objects) <= 0;
-}if ( gdjs.GameCode.condition4IsTrue_0.val ) {
-{
-gdjs.GameCode.condition5IsTrue_0.val = gdjs.evtTools.object.getSceneInstancesCount((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfEmptyGDkeyObjects) < 1;
+gdjs.GameCode.condition4IsTrue_0.val = gdjs.evtTools.object.getSceneInstancesCount((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfEmptyGDkeyObjects) < 1;
 }}
 }
 }
 }
-}
-if (gdjs.GameCode.condition5IsTrue_0.val) {
+if (gdjs.GameCode.condition4IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.createObjectsFromExternalLayout(runtimeScene, "S7Pop", 2400 - 50, -(600));
+}}
+
 }
+
+
+{
+
+
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("s7popButtons"), gdjs.GameCode.GDs7popButtonsObjects2);
+gdjs.copyArray(runtimeScene.getObjects("s7popButtons2"), gdjs.GameCode.GDs7popButtons2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("s7popButtons3"), gdjs.GameCode.GDs7popButtons3Objects2);
+gdjs.copyArray(runtimeScene.getObjects("s7popButtons4"), gdjs.GameCode.GDs7popButtons4Objects2);
+
+gdjs.GameCode.condition0IsTrue_0.val = false;
+gdjs.GameCode.condition1IsTrue_0.val = false;
+gdjs.GameCode.condition2IsTrue_0.val = false;
+gdjs.GameCode.condition3IsTrue_0.val = false;
+gdjs.GameCode.condition4IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs7popButtonsObjects2.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs7popButtonsObjects2[i].getAnimation() == 1 ) {
+        gdjs.GameCode.condition0IsTrue_0.val = true;
+        gdjs.GameCode.GDs7popButtonsObjects2[k] = gdjs.GameCode.GDs7popButtonsObjects2[i];
+        ++k;
+    }
+}
+gdjs.GameCode.GDs7popButtonsObjects2.length = k;}if ( gdjs.GameCode.condition0IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs7popButtons2Objects2.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs7popButtons2Objects2[i].getAnimation() == 3 ) {
+        gdjs.GameCode.condition1IsTrue_0.val = true;
+        gdjs.GameCode.GDs7popButtons2Objects2[k] = gdjs.GameCode.GDs7popButtons2Objects2[i];
+        ++k;
+    }
+}
+gdjs.GameCode.GDs7popButtons2Objects2.length = k;}if ( gdjs.GameCode.condition1IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs7popButtons3Objects2.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs7popButtons3Objects2[i].getAnimation() == 4 ) {
+        gdjs.GameCode.condition2IsTrue_0.val = true;
+        gdjs.GameCode.GDs7popButtons3Objects2[k] = gdjs.GameCode.GDs7popButtons3Objects2[i];
+        ++k;
+    }
+}
+gdjs.GameCode.GDs7popButtons3Objects2.length = k;}if ( gdjs.GameCode.condition2IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs7popButtons4Objects2.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs7popButtons4Objects2[i].getAnimation() == 2 ) {
+        gdjs.GameCode.condition3IsTrue_0.val = true;
+        gdjs.GameCode.GDs7popButtons4Objects2[k] = gdjs.GameCode.GDs7popButtons4Objects2[i];
+        ++k;
+    }
+}
+gdjs.GameCode.GDs7popButtons4Objects2.length = k;}if ( gdjs.GameCode.condition3IsTrue_0.val ) {
+{
+{gdjs.GameCode.conditionTrue_1 = gdjs.GameCode.condition4IsTrue_0;
+gdjs.GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10697252);
+}
+}}
+}
+}
+}
+if (gdjs.GameCode.condition4IsTrue_0.val) {
+
 { //Subevents
 gdjs.GameCode.eventsList17(runtimeScene);} //End of subevents
 }
@@ -2198,9 +2604,96 @@ gdjs.GameCode.eventsList17(runtimeScene);} //End of subevents
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("s7popButtons"), gdjs.GameCode.GDs7popButtonsObjects2);
+gdjs.copyArray(runtimeScene.getObjects("s7popButtons2"), gdjs.GameCode.GDs7popButtons2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("s7popButtons3"), gdjs.GameCode.GDs7popButtons3Objects2);
+gdjs.copyArray(runtimeScene.getObjects("s7popButtons4"), gdjs.GameCode.GDs7popButtons4Objects2);
+
+gdjs.GameCode.condition0IsTrue_0.val = false;
+gdjs.GameCode.condition1IsTrue_0.val = false;
+{
+gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_46GameCode_46GDs7popButtonsObjects2ObjectsGDgdjs_46GameCode_46GDs7popButtons2Objects2ObjectsGDgdjs_46GameCode_46GDs7popButtons3Objects2ObjectsGDgdjs_46GameCode_46GDs7popButtons4Objects2Objects, runtimeScene, true, false);
+}if ( gdjs.GameCode.condition0IsTrue_0.val ) {
+{
+gdjs.GameCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+if (gdjs.GameCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.GameCode.GDs7popButtonsObjects2 */
+/* Reuse gdjs.GameCode.GDs7popButtons2Objects2 */
+/* Reuse gdjs.GameCode.GDs7popButtons3Objects2 */
+/* Reuse gdjs.GameCode.GDs7popButtons4Objects2 */
+{for(var i = 0, len = gdjs.GameCode.GDs7popButtonsObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs7popButtonsObjects2[i].setAnimation(gdjs.GameCode.GDs7popButtonsObjects2[i].getAnimation() + (1));
+}
+for(var i = 0, len = gdjs.GameCode.GDs7popButtons2Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs7popButtons2Objects2[i].setAnimation(gdjs.GameCode.GDs7popButtons2Objects2[i].getAnimation() + (1));
+}
+for(var i = 0, len = gdjs.GameCode.GDs7popButtons3Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs7popButtons3Objects2[i].setAnimation(gdjs.GameCode.GDs7popButtons3Objects2[i].getAnimation() + (1));
+}
+for(var i = 0, len = gdjs.GameCode.GDs7popButtons4Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDs7popButtons4Objects2[i].setAnimation(gdjs.GameCode.GDs7popButtons4Objects2[i].getAnimation() + (1));
+}
+}}
+
+}
+
 
 {
+
+gdjs.copyArray(runtimeScene.getObjects("s7popButtons"), gdjs.GameCode.GDs7popButtonsObjects1);
+gdjs.copyArray(runtimeScene.getObjects("s7popButtons2"), gdjs.GameCode.GDs7popButtons2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("s7popButtons3"), gdjs.GameCode.GDs7popButtons3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("s7popButtons4"), gdjs.GameCode.GDs7popButtons4Objects1);
+
+gdjs.GameCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.GameCode.GDs7popButtonsObjects1.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs7popButtonsObjects1[i].getAnimation() == 5 ) {
+        gdjs.GameCode.condition0IsTrue_0.val = true;
+        gdjs.GameCode.GDs7popButtonsObjects1[k] = gdjs.GameCode.GDs7popButtonsObjects1[i];
+        ++k;
+    }
 }
+gdjs.GameCode.GDs7popButtonsObjects1.length = k;for(var i = 0, k = 0, l = gdjs.GameCode.GDs7popButtons2Objects1.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs7popButtons2Objects1[i].getAnimation() == 5 ) {
+        gdjs.GameCode.condition0IsTrue_0.val = true;
+        gdjs.GameCode.GDs7popButtons2Objects1[k] = gdjs.GameCode.GDs7popButtons2Objects1[i];
+        ++k;
+    }
+}
+gdjs.GameCode.GDs7popButtons2Objects1.length = k;for(var i = 0, k = 0, l = gdjs.GameCode.GDs7popButtons3Objects1.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs7popButtons3Objects1[i].getAnimation() == 5 ) {
+        gdjs.GameCode.condition0IsTrue_0.val = true;
+        gdjs.GameCode.GDs7popButtons3Objects1[k] = gdjs.GameCode.GDs7popButtons3Objects1[i];
+        ++k;
+    }
+}
+gdjs.GameCode.GDs7popButtons3Objects1.length = k;for(var i = 0, k = 0, l = gdjs.GameCode.GDs7popButtons4Objects1.length;i<l;++i) {
+    if ( gdjs.GameCode.GDs7popButtons4Objects1[i].getAnimation() == 5 ) {
+        gdjs.GameCode.condition0IsTrue_0.val = true;
+        gdjs.GameCode.GDs7popButtons4Objects1[k] = gdjs.GameCode.GDs7popButtons4Objects1[i];
+        ++k;
+    }
+}
+gdjs.GameCode.GDs7popButtons4Objects1.length = k;}if (gdjs.GameCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.GameCode.GDs7popButtonsObjects1 */
+/* Reuse gdjs.GameCode.GDs7popButtons2Objects1 */
+/* Reuse gdjs.GameCode.GDs7popButtons3Objects1 */
+/* Reuse gdjs.GameCode.GDs7popButtons4Objects1 */
+{for(var i = 0, len = gdjs.GameCode.GDs7popButtonsObjects1.length ;i < len;++i) {
+    gdjs.GameCode.GDs7popButtonsObjects1[i].setAnimation(1);
+}
+for(var i = 0, len = gdjs.GameCode.GDs7popButtons2Objects1.length ;i < len;++i) {
+    gdjs.GameCode.GDs7popButtons2Objects1[i].setAnimation(1);
+}
+for(var i = 0, len = gdjs.GameCode.GDs7popButtons3Objects1.length ;i < len;++i) {
+    gdjs.GameCode.GDs7popButtons3Objects1[i].setAnimation(1);
+}
+for(var i = 0, len = gdjs.GameCode.GDs7popButtons4Objects1.length ;i < len;++i) {
+    gdjs.GameCode.GDs7popButtons4Objects1[i].setAnimation(1);
+}
+}}
 
 }
 
@@ -2506,10 +2999,38 @@ gdjs.GameCode.GDs7popButtonsObjects1.length = 0;
 gdjs.GameCode.GDs7popButtonsObjects2.length = 0;
 gdjs.GameCode.GDs7popButtonsObjects3.length = 0;
 gdjs.GameCode.GDs7popButtonsObjects4.length = 0;
+gdjs.GameCode.GDs7popButtons2Objects1.length = 0;
+gdjs.GameCode.GDs7popButtons2Objects2.length = 0;
+gdjs.GameCode.GDs7popButtons2Objects3.length = 0;
+gdjs.GameCode.GDs7popButtons2Objects4.length = 0;
+gdjs.GameCode.GDs7popButtons3Objects1.length = 0;
+gdjs.GameCode.GDs7popButtons3Objects2.length = 0;
+gdjs.GameCode.GDs7popButtons3Objects3.length = 0;
+gdjs.GameCode.GDs7popButtons3Objects4.length = 0;
+gdjs.GameCode.GDs7popButtons4Objects1.length = 0;
+gdjs.GameCode.GDs7popButtons4Objects2.length = 0;
+gdjs.GameCode.GDs7popButtons4Objects3.length = 0;
+gdjs.GameCode.GDs7popButtons4Objects4.length = 0;
 gdjs.GameCode.GDNewSpriteObjects1.length = 0;
 gdjs.GameCode.GDNewSpriteObjects2.length = 0;
 gdjs.GameCode.GDNewSpriteObjects3.length = 0;
 gdjs.GameCode.GDNewSpriteObjects4.length = 0;
+gdjs.GameCode.GDs4ToggleObjects1.length = 0;
+gdjs.GameCode.GDs4ToggleObjects2.length = 0;
+gdjs.GameCode.GDs4ToggleObjects3.length = 0;
+gdjs.GameCode.GDs4ToggleObjects4.length = 0;
+gdjs.GameCode.GDs5dooropen1Objects1.length = 0;
+gdjs.GameCode.GDs5dooropen1Objects2.length = 0;
+gdjs.GameCode.GDs5dooropen1Objects3.length = 0;
+gdjs.GameCode.GDs5dooropen1Objects4.length = 0;
+gdjs.GameCode.GDs5dooropen2Objects1.length = 0;
+gdjs.GameCode.GDs5dooropen2Objects2.length = 0;
+gdjs.GameCode.GDs5dooropen2Objects3.length = 0;
+gdjs.GameCode.GDs5dooropen2Objects4.length = 0;
+gdjs.GameCode.GDs7chestObjects1.length = 0;
+gdjs.GameCode.GDs7chestObjects2.length = 0;
+gdjs.GameCode.GDs7chestObjects3.length = 0;
+gdjs.GameCode.GDs7chestObjects4.length = 0;
 
 gdjs.GameCode.eventsList19(runtimeScene);
 

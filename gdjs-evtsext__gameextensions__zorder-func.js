@@ -37,7 +37,7 @@ gdjs.evtsExt__GameExtensions__ZOrder.condition0IsTrue_0.val = gdjs.evtTools.obje
 }if ( gdjs.evtsExt__GameExtensions__ZOrder.condition0IsTrue_0.val ) {
 {
 {gdjs.evtsExt__GameExtensions__ZOrder.conditionTrue_1 = gdjs.evtsExt__GameExtensions__ZOrder.condition1IsTrue_0;
-gdjs.evtsExt__GameExtensions__ZOrder.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(10577500);
+gdjs.evtsExt__GameExtensions__ZOrder.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(10587292);
 }
 }}
 if (gdjs.evtsExt__GameExtensions__ZOrder.condition1IsTrue_0.val) {
